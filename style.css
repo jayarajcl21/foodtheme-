@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    box-shadow: 0;
+    /* */
+   
+  
+}
+
+
+body{
+    font-family:cursive;
+    overflow-x: hidden;
+  transition: 0.5s;
+
+ 
+
+  /* background-image:url("assets/bg_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+ 
+}
+button {
+    border: none;
+    cursor: pointer;
+  }
+  /* .navbar {
+   
+    display: flex;
+    margin:0.2rem;
+    padding: 2px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(175,202,227,1) 24%, rgba(73,187,210,1) 100%);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    z-index: 9999;
+  } */
+
+  .button__primary{
+    margin:0.2rem;
+    padding: 15px;
+    background: linear-gradient(45deg, #f2cbb9 10%, #3273a8 90%);
+      cursor: pointer;
+      font-weight: bold;
+      border:2px soild white;
+      border-radius: 10%;
+      box-shadow: 2px 2px 1px 0px gray ;
+      align-content: center;
+    }
+    .button__primary:hover{
+      transition: 0.5s;
+      background: linear-gradient(45deg, #a3c0ce 20%, #8732a8 80%);
+       border-bottom: 2px solid orange;
+    }
+
+    /* .Location{
+      position:sticky;
+      top:0px;    
+        border:2px solid black;
+      padding:8px;
+      margin-top: 5%;
+      
+      color:white;
+      background-image: linear-gradient(45deg, #a3c0ce 20%, #8732a8 80%);
+    } */
+  .hero__container{
+    display: flex;
+     background-image: url("./assets/shape_01.jpg");
+    
+   background-size: cover;
+   height:100%;
+   /* position:sticky;
+   top:0px; */
+   padding-bottom:3% ;
+   margin: 0%;
+ }
+ .hero__container:hover{
+    background-image: url("./assets/shape_02.jpg"); 
+   transition: 3s;
+ }
+   /* .hero__image__container{
+ position: relative;
+ width:100%;
+  }  */
+  .hero__image{
+    width:10rem;
+    height:9rem;
+    margin:25%;
+  }
+  .hero__text{
+   
+    color:white;
+    font-size: 15px;
+    transition: 0.2s;
+    margin-bottom: 5%;
+  }
+  .hero__description{
+    margin:15%;
+  }
+  
+  .menu__list{
+    display: flex;
+    align-items: center;
+  }
+  .menu{
+    border:2px solid white;
+    
+    margin-right:2rem;
+    box-shadow:2px 3px 4px grey;
+  }
+  .menu__img {
+    width:auto;
+    padding-right: 32px;
+   
+    
+    
+  }
+  .food__list__menu{
+    display: flex;
+    flex-direction: column;
+    margin:10%;
+  
+  }
+  .text-x1{
+    text-align: center;
+    color:#1d3557;
+    
+    font-size:30px;
+  }
+  .food__menu__card__image{
+    width:270px;
+    height:200px;
+    margin:4%; 
+    align-self: center;
+  }
+ 
+  .food__menu__card{
+    border:2px solid white;
+    box-shadow: 3px 4px 8px grey;
+     margin-top:2%; 
+    
+     background: linear-gradient(to right, #a1ffce, #faffd1);
+     /* padding:3px; */
+  }
+  .food__list__menu__card__details{
+    border:2px solid white;
+    box-shadow: 3px 4px 8px black;
+    margin:2%;
+    }
+    .food__list__Grab__more {
+      text-align:center;
+      margin-left:15%;
+      margin-right: 15%;
+      margin-top:8%;
+      margin-bottom:5%;
+      color: black;
+      padding: 1rem;
+      border-radius: 6px;
+      background: linear-gradient(to right, #005cff, #02121d00);
+    }
+    .food__list__Grab__more:hover{
+      
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      transition: 5s;
+    }
+    .raw__products{
+display: flex;
+margin-top:2%;
+
+}
+.text-02{
+  color:black;
+}
+   .raw__image{
+      width:40px;
+      height:40px;
+     
+} 
+     a{
+      text-decoration:none;
+      color:black;
+      font-size:15px;
+    } 
+.raw__items{
+  margin-right: 1%;
+   border:2px solid white; 
+ box-shadow: 3px 4px 8px grey;
+  border-radius: 5%; 
+  background-color:#ebf2ff;
+   } 
+   .text-x2{
+    font-size:19px;
+    
+    color:#1d3557;
+    padding:20px;
+   }
+
+.top__picks{
+  display: none;
+}
+.pickhead{
+  font-size: 20px;
+    text-align: center;
+    color: linear-gradient(to right, #00c6ff,#1d3557 );
+  
+}
+.our__clients{
+  display: grid;
+  margin:15%;
+  
+}
+.client__data{
+  border:2px solid whitesmoke;
+  box-shadow: 2px 5px 6px solid grey;
+  /* margin-right:2%; */
+}
+
+.client__img{
+  width:80%;
+  margin:5%;
+  
+
+}
+.client__tagline{
+  font-size: 13px;
+  
+}
+   
+footer{
+  margin-top:2%;
+  background-color: grey;
+  padding-bottom: 80px;
+}
+
+/* 
+@media(min-width:414px){
+  .menu__phone{
+  display: none !important;
+  }
+} */
+
+.Our__chefs{
+  display: flex;
+  margin:2%;
+  
+}
+.chef_img{
+
+  width:160px;
+  height:280px;
+  border:2px solid whitesmoke;
+  box-shadow: 2px 4px 3px grey;
+  
+}
+
+ul{
+margin:2rem;
+}
+li{
+  padding-right: 30px;
+  border:2px solid white;
+  border-left: 2px solid orange;
+  margin-bottom:1rem;
+
+}
+li:hover{
+  padding:2px;
+  border-bottom: 3px solid orange;
+  border-left:5px solid blue;
+ 
+}
+.Biriyani__pot{
+ text-align: center;
+ background-color: brown;
+}
+.Contact_container{
+  text-align: center;
+}
+.socialmedia{
+  padding:5px;
+  margin-right:5px;
+  text-align: center;
+}
+
+/*------For laptop view-------------*/
+
+@media(min-width:1200px){
+  
+  .navbar{
+    padding:3px;
+    margin:0.2rem; 
+    position:sticky;
+    bottom: 2px;
+  }
+   
+  .hero__description{
+    text-align: center;
+    margin:15%;
+  }
+  .hero__image{
+    width:16rem;
+    height:14rem;
+    margin:50%;
+  }
+  .hero__text{
+   
+    color: white;
+    font-size: 40px;
+    transition: 0.9s;
+  }
+  .hero__container{
+    height:500px;
+    
+  }
+  .hamburger__menu{
+    display: none !important;
+  }
+
+  .food__list__menu{
+    display: flex;
+    flex-direction:row;
+    margin:5%;
+    align-items:flex-start;
+    
+
+   
+    
+  }
+
+    .food__menu__card__image{
+    border:px solid rgba(204, 150, 229, 0.856);
+    box-shadow: 3px 4px 8px black;
+    /* margin-left:1%; */
+    padding:0px;
+      width:350px;
+      height:300px;
+     
+    
+  }
+  
+  .food__menu__card {
+    /* left: 0px;*/
+   position:relative;
+    top: 0px;  
+
+    height: 100%;
+    width: 100%;
+margin:1%;
+    transform: rotate(+15deg);
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+   
+    z-index: -3;
+  }
+ 
+  .raw__items{
+    padding:30px;
+    margin:2%;
+  }
+  .raw__items:hover{
+    padding:28px;
+  }
+  .text-x2{
+    display: none !important;
+  }
+  .top__picks{
+    display: flex;
+    margin-top:2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:orangered;
+    padding:3%;
+    perspective: 5ch;
+    
+  }
+  
+  .unique__img{
+    margin-top: 5%;
+    margin-right: 2%;
+    width:80%;
+    height:80%;
+    border:1px solid whitesmoke;
+    box-shadow: 20x 5px 4px grey;
+    
+  }
+  .unique__img:hover{
+    padding:3px;
+  }
+
+.phone__ui{
+  width:30px;
+  height:50px;
+}
+.our__clients{
+  display:flex;
+  margin:5%;
+ 
+  
+  
+}
+.client__img{
+  width:40%;
+  margin:5%;
+
+}
+
+}
